@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Servicios — KÂLON Multiespacio Estético</title>
-  <meta name="description" content="Faciales, microdermoabrasión, permanente de pestañas, tinte y perfilación de cejas en KÂLON Multiespacio Estético, Alta Córdoba." />
+  <meta name="description" content="Faciales, depilación, manicuría, masajes, podología, reiki, pestañas y tratamientos corporales en KÂLON Multiespacio Estético Unisex, Alta Córdoba." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 
 <header>
   <div class="header-inner">
-    <a href="index.html"><div class="logo">KÂLON <em>Multiespacio</em><span class="logo-sub">Alta Córdoba</span></div></a>
+    <a href="index.html" class="logo-link"><img src="img/logo-kalon.png" alt="KÂLON Multiespacio Estético" class="logo-img"><span class="logo-sub">Multiespacio Estético<br>Alta Córdoba</span></a>
     <div class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></div>
     <nav class="links" id="navLinks">
       <a href="index.html">Inicio</a>
@@ -30,88 +30,118 @@
 
 <div class="page-head">
   <p class="label">Nuestros tratamientos</p>
-  <h1>Faciales, cejas y pestañas <em>con técnica profesional</em></h1>
-  <p>Cada tratamiento está pensado para tu piel y tu mirada, con protocolos actualizados y productos de calidad.</p>
+  <h1>Ocho maneras de cuidarte <em>con técnica profesional</em></h1>
+  <p>Multiespacio estético unisex. Cada tratamiento está pensado para vos, con protocolos actualizados y productos de calidad.</p>
 </div>
 
 <section>
   <div class="wrap">
-    <div class="service-row">
-      <div class="service-num">01</div>
-      <div class="service-body">
-        <h3>Faciales</h3>
-        <p>Pilling</p>
-        <p>DermaPlaning</p>
-        <p>Exosomas</p>
-        <a target="_blank" href="https://wa.me/5493513975114?text=Hola%21%20Quiero%20reservar%20Microdermoabrasi%C3%B3n%20Punta%20de%20Diamantes%20en%20K%C3%82LON%20Multiespacio%20Est%C3%A9tico">Reservar este tratamiento →</a>
+    <div class="services-grid" id="servicesGrid">
+      <div class="service-card" data-service="faciales" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1761718209835-c8586b7dcac0?w=600&q=75" alt="Tratamiento facial en KÂLON Multiespacio Estético" loading="lazy">
+          <div class="card-overlay"><span>Ver detalles <em>→</em></span></div>
+          <div class="card-num">01</div>
+        </div>
+        <div class="card-body">
+          <h3>Faciales</h3>
+          <p class="card-teaser">Pilling, DermaPlaning y Exosomas.</p>
+        </div>
+      </div>
+      <div class="service-card" data-service="manicuria" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=600&q=75" alt="Manicuría en KÂLON Multiespacio Estético" loading="lazy">
+          <div class="card-overlay"><span>Ver detalles <em>→</em></span></div>
+          <div class="card-num">02</div>
+        </div>
+        <div class="card-body">
+          <h3>Manicuría y Belleza de Pies</h3>
+          <p class="card-teaser">Manos y pies siempre impecables.</p>
+        </div>
+      </div>
+      <div class="service-card" data-service="depilacion" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1700760933574-9f0f4ea9aa3b?w=600&q=75" alt="Depilación definitiva en KÂLON Multiespacio Estético" loading="lazy">
+          <div class="card-overlay"><span>Ver detalles <em>→</em></span></div>
+          <div class="card-num">03</div>
+        </div>
+        <div class="card-body">
+          <h3>Depilación</h3>
+          <p class="card-teaser">Tradicional y definitiva, cuerpo completo unisex.</p>
+        </div>
+      </div>
+      <div class="service-card" data-service="masajes" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&q=75" alt="Masajes en KÂLON Multiespacio Estético" loading="lazy">
+          <div class="card-overlay"><span>Ver detalles <em>→</em></span></div>
+          <div class="card-num">04</div>
+        </div>
+        <div class="card-body">
+          <h3>Masajes</h3>
+          <p class="card-teaser">Descontracturante y relajante, con técnica de Reiki.</p>
+        </div>
+      </div>
+      <div class="service-card" data-service="podologia" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1519419451778-14599a49ec41?w=600&q=75" alt="Podología clínica en KÂLON Multiespacio Estético" loading="lazy">
+          <div class="card-overlay"><span>Ver detalles <em>→</em></span></div>
+          <div class="card-num">05</div>
+        </div>
+        <div class="card-body">
+          <h3>Podología Clínica</h3>
+          <p class="card-teaser">Salud y cuidado de tus pies.</p>
+        </div>
+      </div>
+      <div class="service-card" data-service="reiki" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=75" alt="Reiki y liberación en KÂLON Multiespacio Estético" loading="lazy">
+          <div class="card-overlay"><span>Ver detalles <em>→</em></span></div>
+          <div class="card-num">06</div>
+        </div>
+        <div class="card-body">
+          <h3>Reiki y Liberación</h3>
+          <p class="card-teaser">Equilibrio para cuerpo y mente. Sesión de 2 hs.</p>
+        </div>
+      </div>
+      <div class="service-card" data-service="pestanas" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1674049406467-824ea37c7184?w=600&q=75" alt="Pestañas en KÂLON Multiespacio Estético" loading="lazy">
+          <div class="card-overlay"><span>Ver detalles <em>→</em></span></div>
+          <div class="card-num">07</div>
+        </div>
+        <div class="card-body">
+          <h3>Pestañas</h3>
+          <p class="card-teaser">Lifting y pelo por pelo.</p>
+        </div>
+      </div>
+      <div class="service-card" data-service="corporales" tabindex="0" role="button" aria-haspopup="dialog">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1761819922058-d15028ed9817?w=600&q=75" alt="Tratamientos corporales Hifu en KÂLON Multiespacio Estético" loading="lazy">
+          <div class="card-overlay"><span>Ver detalles <em>→</em></span></div>
+          <div class="card-num">08</div>
+        </div>
+        <div class="card-body">
+          <h3>Tratamientos Corporales</h3>
+          <p class="card-teaser">Tecnología Hifu.</p>
+        </div>
       </div>
     </div>
-    <div class="service-row">
-      <div class="service-num">02</div>
-      <div class="service-body">
-        <h3>Manicuria y Belleza de Pies</h3>
-        <p></p>
-        <a target="_blank" href="https://wa.me/5493513975114?text=Hola%21%20Quiero%20reservar%20Limpieza%20Facial%20Profunda%20en%20K%C3%82LON%20Multiespacio%20Est%C3%A9tico">Reservar este tratamiento →</a>
-      </div>
-    </div>
-    <div class="service-row">
-      <div class="service-num">03</div>
-      <div class="service-body">
-        <h3>Depilación</h3>
-        <p>Tradicional</p>
-        <p>Definitiva</p>
-        <a target="_blank" href="https://wa.me/5493513975114?text=Hola%21%20Quiero%20reservar%20Extracci%C3%B3n%20de%20Puntos%20Negros%20en%20K%C3%82LON%20Multiespacio%20Est%C3%A9tico">Reservar este tratamiento →</a>
-      </div>
-    </div>
-    <div class="service-row">
-      <div class="service-num">04</div>
-      <div class="service-body">
-        <h3>Masajes</h3>
-        <p>Descontracturante - Relajante</p>
-        <a target="_blank" href="https://wa.me/5493513975114?text=Hola%21%20Quiero%20reservar%20Permanente%20de%20Pesta%C3%B1as%20en%20K%C3%82LON%20Multiespacio%20Est%C3%A9tico">Reservar este tratamiento →</a>
-      </div>
-    </div>
-    <div class="service-row">
-      <div class="service-num">05</div>
-      <div class="service-body">
-        <h3>Podología Clinica</h3>
-        <p></p>
-        <a target="_blank" href="https://wa.me/5493513975114?text=Hola%21%20Quiero%20reservar%20Tinte%20de%20Pesta%C3%B1as%20y%20Cejas%20en%20K%C3%82LON%20Multiespacio%20Est%C3%A9tico">Reservar este tratamiento →</a>
-      </div>
-    </div>
-    <div class="service-row">
-      <div class="service-num">06</div>
-      <div class="service-body">
-        <h3>Reiki y liberación</h3>
-        <p></p>
-        <a target="_blank" href="https://wa.me/5493513975114?text=Hola%21%20Quiero%20reservar%20Perfilaci%C3%B3n%20de%20Cejas%20y%20Depilaci%C3%B3n%20de%20Bozo%20en%20K%C3%82LON%20Multiespacio%20Est%C3%A9tico">Reservar este tratamiento →</a>
-      </div>
-    </div>
-  
-  <div class="service-row">
-      <div class="service-num">07</div>
-      <div class="service-body">
-        <h3>Pestañas</h3>
-        <li>Lifting</li>
-        <li>Pelo por pelo</li>
-        <a target="_blank" href="https://wa.me/5493513975114?text=Hola%21%20Quiero%20reservar%20Perfilaci%C3%B3n%20de%20Cejas%20y%20Depilaci%C3%B3n%20de%20Bozo%20en%20K%C3%82LON%20Multiespacio%20Est%C3%A9tico">Reservar este tratamiento →</a>
-      </div>
-    </div>
-  
-   
-  <div class="service-row">
-      <div class="service-num">07</div>
-      <div class="service-body">
-        <h3>Tratamientos Corporales</h3>
-        <li>Hifu</li>
-        <p></p>
-        <a target="_blank" href="https://wa.me/5493513975114?text=Hola%21%20Quiero%20reservar%20Perfilaci%C3%B3n%20de%20Cejas%20y%20Depilaci%C3%B3n%20de%20Bozo%20en%20K%C3%82LON%20Multiespacio%20Est%C3%A9tico">Reservar este tratamiento →</a>
-      </div>
-    </div>
-  </div>
-  </div>
   </div>
 </section>
+
+<div class="modal-overlay" id="serviceModal" aria-hidden="true">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Cerrar">✕</button>
+    <div class="modal-img"><img id="modalImg" src="" alt=""></div>
+    <div class="modal-content">
+      <div class="modal-num" id="modalNum"></div>
+      <h2 id="modalTitle"></h2>
+      <p class="modal-desc" id="modalDesc"></p>
+      <ul class="modal-items" id="modalItems"></ul>
+      <a class="btn btn-solid" id="modalCta" target="_blank">Reservar este tratamiento</a>
+    </div>
+  </div>
+</div>
 
 <section class="final">
   <h2>¿No sabés qué tratamiento <em>elegir?</em></h2>
@@ -129,7 +159,7 @@
     <a href="faq.html">Preguntas</a>
     <a href="contacto.html">Contacto</a>
   </div>
-  <p>Miguel de Cervantes 706, esq. Fragueiro · Alta Córdoba</p>
+  <p>Miguel de Cervantes 707, planta alta · Alta Córdoba</p>
   <p style="margin-top:.4rem;">© 2026 KÂLON Multiespacio Estético · Todos los derechos reservados</p>
 </footer>
 
