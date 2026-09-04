@@ -1,61 +1,61 @@
 function toggleNav(){document.getElementById('navLinks').classList.toggle('open');}
 
 const servicesData={
-  faciales:{
+  depilacion:{
     num:'01',
-    title:'Faciales',
-    desc:'Tratamientos faciales pensados para cada tipo de piel, combinando exfoliación profesional y tecnología de regeneración celular para una piel más luminosa.',
-    items:['Pilling químico','DermaPlaning','Exosomas'],
-    wa:'Hola! Quiero reservar un turno de Faciales en KALON Multiespacio Estético'
+    title:'Depilación',
+    desc:'Dos caminos, según lo que busques. La cera de miel resuelve el momento y la hacemos en cuerpo completo, para cualquier persona. La definitiva es un tratamiento por sesiones con equipo ADSS: en la primera evaluamos tu tipo de piel y de vello y te decimos cuántas sesiones vas a necesitar. En general son entre 10 y 12.',
+    items:['Cera de miel · cuerpo completo, unisex','Depilación definitiva con equipo ADSS · por sesiones','Evaluación de piel y vello en la primera sesión'],
+    wa:'Hola! Vi la web de KALON. Quería precio y turno para depilación.'
   },
   manicuria:{
     num:'02',
-    title:'Manicuría y Belleza de Pies',
-    desc:'Cuidado completo de manos y pies, con técnica prolija y productos de calidad para un resultado impecable y duradero.',
+    title:'Manicuría y belleza de pies',
+    desc:'Manos y pies, con todas las técnicas: desde la manicuría básica hasta semipermanente, kapping y soft gel. También hacemos el retiro.',
     items:['Manicuría básica','Semipermanente','Kapping','Soft gel','Retiro','Belleza de manos','Belleza de pies'],
-    wa:'Hola! Quiero reservar un turno de Manicuría y Belleza de Pies en KALON Multiespacio Estético'
+    wa:'Hola! Vi la web de KALON. Quería precio y turno para manicuría.'
   },
-  depilacion:{
+  faciales:{
     num:'03',
-    title:'Depilación',
-    desc:'Elegí el método que mejor se adapte a vos: cera de miel para resultados inmediatos en cuerpo completo (unisex), o depilación definitiva para eliminar el vello de manera permanente, mejorar la textura de la piel y atenuar manchas en las zonas más pigmentadas.',
-    items:['Depilación tradicional con cera de miel · cuerpo completo, unisex','Depilación definitiva (equipo ADSS) · de 10 a 12 sesiones aprox.'],
-    wa:'Hola! Quiero reservar un turno de Depilación en KALON Multiespacio Estético'
+    title:'Faciales',
+    desc:'Tratamientos faciales según lo que necesite tu piel. Trabajamos con peeling químico, dermaplaning y exosomas. En la primera consulta vemos tu piel y definimos cuál corresponde.',
+    items:['Peeling químico','Dermaplaning','Exosomas'],
+    wa:'Hola! Vi la web de KALON. Quería precio y turno para un facial.'
+  },
+  pestanas:{
+    num:'04',
+    title:'Pestañas',
+    desc:'Dos técnicas, según la forma de tus ojos y el efecto que busques: lifting, que trabaja sobre tu propia pestaña, o pelo por pelo, que suma extensiones de a una.',
+    items:['Lifting de pestañas','Pelo por pelo'],
+    wa:'Hola! Vi la web de KALON. Quería precio y turno para pestañas.'
   },
   masajes:{
-    num:'04',
-    title:'Masajes',
-    desc:'Un momento de pausa real: masajes pensados para liberar tensión muscular y devolverte la calma, combinados con técnica de Reiki.',
-    items:['Descontracturante','Relajante (combinado con técnica de Reiki)'],
-    wa:'Hola! Quiero reservar un turno de Masajes en KALON Multiespacio Estético'
-  },
-  podologia:{
     num:'05',
-    title:'Podología Clínica',
-    desc:'Atención podológica clínica para tratar durezas, uñas encarnadas y otras afecciones, con higiene y protocolos profesionales.',
-    items:['Evaluación podológica','Tratamiento de durezas y callos','Uñas encarnadas'],
-    wa:'Hola! Quiero reservar un turno de Podología Clínica en KALON Multiespacio Estético'
+    title:'Masajes',
+    desc:'Sesiones de masaje descontracturante o relajante, este último combinado con técnica de Reiki. Se trabaja sobre la tensión muscular, en box individual y sin apuro.',
+    items:['Descontracturante','Relajante, combinado con técnica de Reiki'],
+    wa:'Hola! Vi la web de KALON. Quería precio y turno para un masaje.'
   },
   reiki:{
     num:'06',
-    title:'Reiki y Liberación',
-    desc:'Sesiones de reiki y liberación emocional para acompañar tu bienestar integral, en un espacio de calma y contención. Duración de la sesión: 2 horas.',
+    title:'Reiki y liberación',
+    desc:'Sesiones de Reiki y liberación emocional, de dos horas. Es un espacio de acompañamiento: no reemplaza ninguna consulta médica ni psicológica.',
     items:['Reiki','Liberación emocional','Duración: 2 hs'],
-    wa:'Hola! Quiero reservar un turno de Reiki y Liberación en KALON Multiespacio Estético'
+    wa:'Hola! Vi la web de KALON. Quería precio y turno para una sesión de Reiki.'
   },
-  pestanas:{
+  podologia:{
     num:'07',
-    title:'Pestañas',
-    desc:'Realzamos tu mirada con técnicas de lifting o extensiones pelo por pelo, adaptadas a la forma de tus ojos.',
-    items:['Lifting de pestañas','Pelo por pelo'],
-    wa:'Hola! Quiero reservar un turno de Pestañas en KALON Multiespacio Estético'
+    title:'Podología clínica',
+    desc:'Atención podológica clínica: durezas, callos, uñas encarnadas y otras afecciones del pie. Con protocolos de higiene y esterilización del instrumental.',
+    items:['Evaluación podológica','Durezas y callos','Uñas encarnadas'],
+    wa:'Hola! Vi la web de KALON. Quería precio y turno para podología.'
   },
   corporales:{
     num:'08',
-    title:'Tratamientos Corporales',
-    desc:'Tratamientos corporales con tecnología de última generación para tonificar, reafirmar y cuidar tu piel de la cabeza a los pies.',
+    title:'Tratamientos corporales',
+    desc:'Tratamientos corporales con equipo Hifu. En la primera consulta evaluamos la zona, te explicamos en qué consiste y cuántas sesiones lleva.',
     items:['Hifu corporal'],
-    wa:'Hola! Quiero reservar un turno de Tratamientos Corporales en KALON Multiespacio Estético'
+    wa:'Hola! Vi la web de KALON. Quería precio y turno para un tratamiento corporal.'
   }
 };
 
