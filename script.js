@@ -32,7 +32,7 @@ const servicesData={
   masajes:{
     num:'05',
     title:'Masajes',
-    desc:'Sesiones de masaje descontracturante o relajante, este último combinado con técnica de Reiki. Se trabaja sobre la tensión muscular, en box individual y sin apuro.',
+    desc:'Sesiones de masaje descontracturante o relajante, este último combinado con técnica de Reiki. Se trabaja sobre la tensión muscular, sin apuro y sin superponer turnos.',
     items:['Descontracturante','Relajante, combinado con técnica de Reiki'],
     wa:'Hola! Vi la web de KALON. Quería precio y turno para un masaje.'
   },
