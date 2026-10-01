@@ -7,6 +7,10 @@ Cada archivo aparece solo en su tarjeta de `servicios.html`. Si el archivo no ex
 - Se pueden usar rostros de clientas y del equipo (decisión de Matías, 2026-09-18).
 - Sin ropa de marca ajena en cuadro (en los clips faciales la clienta lleva una remera "ARIZONA": se encuadró por encima).
 
+## Formatos (2026-10-01) — leer antes de cambiar una foto
+
+Cada foto existe en tres archivos: `<nombre>.jpg` (respaldo para navegadores viejos), `<nombre>-480.webp` y `<nombre>-900.webp` (o un solo `.webp` al tamaño nativo si la foto es más chica). El navegador elige el WebP del tamaño justo; el `.jpg` casi nunca se descarga. **Si se cambia una foto, hay que regenerar también sus `.webp`**, o la web va a seguir mostrando la vieja. Si la foto nueva tiene otra medida, actualizar `width`/`height` y el `srcset` de su `<picture>` en `servicios.html`. Calidad usada: JPG 80 progresivo, WebP 78. Respaldo de las fotos anteriores a la compresión en `../respaldo-img-2026-10-01/`.
+
 ## Estado (2026-09-18)
 
 Tienen foto 20 de 21 (falta soft gel): 13 salen de video/foto ya filmados en el local (`videos/` y planos ya cortados de uñas) y 7 son de stock (2 de Unsplash, 1 de Pexels, y las de cera, lifting, dermaplaning, exosomas y belleza de manos que eligió Matías, ver abajo).
@@ -30,9 +34,9 @@ Tienen foto 20 de 21 (falta soft gel): 13 salen de video/foto ya filmados en el 
 | Pestañas | Lifting de pestañas | `lifting-de-pestanas.jpg` | **stock** |
 | Pestañas | Pelo por pelo | `pelo-por-pelo.jpg` | **stock** |
 | Masajes | Descontracturante | `masaje-descontracturante.jpg` | listo, es `../masajes.jpg` |
-| Masajes | Relajante con Reiki | `masaje-relajante.jpg` | listo |
+| Masajes | Relajante con Reiki | `masaje-relajante.jpg` | **elegida por Matías** — recorte 4:3 de `img/conreiki.jpg` (primer plano de manos sobre la espalda, 563 x 422, no se agrandó), elegida por Matías 2026-10-01; no tiene registrado de dónde salió |
 | Reiki | Reiki y liberación emocional | `reiki-y-liberacion.jpg` | listo |
-| Podología | Evaluación podológica | `evaluacion-podologica.jpg` | listo |
+| Podología | Evaluación podológica | `evaluacion-podologica.jpg` | listo — recorte 4:3 de `img/podologia.jpg` (sesión de fotos profesional del local), elegida por Matías 2026-10-01 |
 | Podología | Durezas y callos | `durezas-y-callos.jpg` | listo |
 | Podología | Uñas encarnadas | `unas-encarnadas.jpg` | listo |
 | Corporales | Hifu corporal | `hifu-corporal.jpg` | listo |
