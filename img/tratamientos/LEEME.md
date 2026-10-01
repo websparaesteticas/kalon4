@@ -33,10 +33,10 @@ Tienen foto 20 de 21 (falta soft gel): 13 salen de video/foto ya filmados en el 
 | Faciales | Exosomas | `exosomas.jpg` | **stock** |
 | Pestañas | Lifting de pestañas | `lifting-de-pestanas.jpg` | **stock** |
 | Pestañas | Pelo por pelo | `pelo-por-pelo.jpg` | **stock** |
-| Masajes | Descontracturante | `masaje-descontracturante.jpg` | listo, es `../masajes.jpg` |
-| Masajes | Relajante con Reiki | `masaje-relajante.jpg` | **elegida por Matías** — recorte 4:3 de `img/conreiki.jpg` (primer plano de manos sobre la espalda, 563 x 422, no se agrandó), elegida por Matías 2026-10-01; no tiene registrado de dónde salió |
+| Masajes | Descontracturante | `masaje-descontracturante.jpg` | listo, es `WEB/originales-fotos/masajes.jpg` |
+| Masajes | Relajante con Reiki | `masaje-relajante.jpg` | **elegida por Matías** — recorte 4:3 de `WEB/originales-fotos/conreiki.jpg` (primer plano de manos sobre la espalda, 563 x 422, no se agrandó), elegida por Matías 2026-10-01; no tiene registrado de dónde salió |
 | Reiki | Reiki y liberación emocional | `reiki-y-liberacion.jpg` | listo |
-| Podología | Evaluación podológica | `evaluacion-podologica.jpg` | listo — recorte 4:3 de `img/podologia.jpg` (sesión de fotos profesional del local), elegida por Matías 2026-10-01 |
+| Podología | Evaluación podológica | `evaluacion-podologica.jpg` | listo — recorte 4:3 de `WEB/originales-fotos/podologia.jpg` (sesión de fotos profesional del local), elegida por Matías 2026-10-01 |
 | Podología | Durezas y callos | `durezas-y-callos.jpg` | listo |
 | Podología | Uñas encarnadas | `unas-encarnadas.jpg` | listo |
 | Corporales | Hifu corporal | `hifu-corporal.jpg` | listo |
@@ -62,23 +62,23 @@ Elegida por Matías el 2026-09-30. La anterior era material propio pero mostraba
 
 ## La de belleza de manos
 
-`belleza-de-manos.jpg` es un recorte 4:3 de `img/belleza-de-unias.jpg`, la foto que eligió Matías (2026-10-01): manicura con guantes negros pintando con pincel fino una uña nude. Reemplaza al cuadro de video propio, que era la misma escena (mano con anillo y uñas nude) que quedó en `kapping.jpg`. No tiene registrado de dónde salió.
+`belleza-de-manos.jpg` es un recorte 4:3 de `WEB/originales-fotos/belleza-de-unias.jpg`, la foto que eligió Matías (2026-10-01): manicura con guantes negros pintando con pincel fino una uña nude. Reemplaza al cuadro de video propio, que era la misma escena (mano con anillo y uñas nude) que quedó en `kapping.jpg`. No tiene registrado de dónde salió.
 
 ## La de exosomas
 
-`exosomas.jpg` es un recorte 4:3 de `img/exosomas.jpg`, la foto que eligió Matías (2026-10-01): cabezal de dermapen con guante negro sobre la sien, al lado del ojo cerrado. Reemplaza a la varita dorada que salía de la sesión facial filmada. No tiene registrado de dónde salió.
+`exosomas.jpg` es un recorte 4:3 de `WEB/originales-fotos/exosomas.jpg`, la foto que eligió Matías (2026-10-01): cabezal de dermapen con guante negro sobre la sien, al lado del ojo cerrado. Reemplaza a la varita dorada que salía de la sesión facial filmada. No tiene registrado de dónde salió.
 
 ## La de dermaplaning
 
-`dermaplaning.jpg` es un recorte 4:3 de `img/dermaplaning.jpeg`, la foto que eligió Matías (2026-10-01): manos con guantes negros pasando el bisturí por el mentón, de perfil, con los labios y la nariz en cuadro. Reemplaza a la de Unsplash `PqyzuzFiQfY`. No tiene registrado de dónde salió. 720 x 540, no se agrandó.
+`dermaplaning.jpg` es un recorte 4:3 de `WEB/originales-fotos/dermaplaning.jpeg`, la foto que eligió Matías (2026-10-01): manos con guantes negros pasando el bisturí por el mentón, de perfil, con los labios y la nariz en cuadro. Reemplaza a la de Unsplash `PqyzuzFiQfY`. No tiene registrado de dónde salió. 720 x 540, no se agrandó.
 
 ## La de lifting
 
-`lifting-de-pestanas.jpg` es un recorte 4:3 de `img/linfting.jpg`, la foto que eligió Matías (2026-10-01): pestañas propias peinadas hacia arriba sobre el molde de silicona, con pincel aplicando el producto. Reemplaza a dos anteriores que mostraban extensiones/postizas (`GEct9d7zgos` y `kA74I2XMiSQ` de Unsplash). No tiene registrado de qué banco salió. Es chica (497 x 373, no se agrandó).
+`lifting-de-pestanas.jpg` es un recorte 4:3 de `WEB/originales-fotos/linfting.jpg`, la foto que eligió Matías (2026-10-01): pestañas propias peinadas hacia arriba sobre el molde de silicona, con pincel aplicando el producto. Reemplaza a dos anteriores que mostraban extensiones/postizas (`GEct9d7zgos` y `kA74I2XMiSQ` de Unsplash). No tiene registrado de qué banco salió. Es chica (497 x 373, no se agrandó).
 
 ## La de cera
 
-`cera.jpg` es un recorte 4:3 de `img/depicera.jpg`, la foto que eligió Matías (2026-09-30): esteticista con guantes aplicando cera dorada con espátula sobre la pierna, en camilla. No viene de material propio y no tiene registrado de qué banco salió. Es chica (484 x 363, no se agrandó para no pixelarla); si aparece una versión más grande, reemplazarla.
+`cera.jpg` es un recorte 4:3 de `WEB/originales-fotos/depicera.jpg`, la foto que eligió Matías (2026-09-30): esteticista con guantes aplicando cera dorada con espátula sobre la pierna, en camilla. No viene de material propio y no tiene registrado de qué banco salió. Es chica (484 x 363, no se agrandó para no pixelarla); si aparece una versión más grande, reemplazarla.
 
 Cada una se ve en `https://unsplash.com/photos/<id>`. Ojo: en las de stock aparecen personas que no son de KALON.
 
