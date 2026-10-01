@@ -9,11 +9,13 @@ Cada archivo aparece solo en su tarjeta de `servicios.html`. Si el archivo no ex
 
 ## Estado (2026-09-18)
 
-Las 21 tienen foto: 16 salen de video/foto ya filmados en el local (`videos/` y planos ya cortados de uñas) y 5 son de stock (Unsplash, ver abajo).
+Las 21 tienen foto: 14 salen de video/foto ya filmados en el local (`videos/` y planos ya cortados de uñas) y 7 son de stock (3 de Unsplash, 1 de Pexels, y las de cera, lifting y dermaplaning que eligió Matías, ver abajo).
+
+**2026-09-30:** la foto de cera que había (sacada del material propio) mostraba gel, no cera; se reemplazó por `depicera.jpg` (elegida por Matías) y el tratamiento pasó a llamarse "Depilación con cera" (antes "Cera de miel").
 
 | Servicio | Tratamiento | Archivo | Estado |
 |---|---|---|---|
-| Depilación | Cera de miel | `cera-de-miel.jpg` | listo |
+| Depilación | Depilación con cera | `cera.jpg` | **stock** |
 | Depilación | Depilación definitiva | `depilacion-definitiva.jpg` | listo |
 | Manicuría | Manicuría básica | `manicuria-basica.jpg` | listo, confirmar técnica |
 | Manicuría | Semipermanente | `semipermanente.jpg` | listo, confirmar técnica |
@@ -21,7 +23,7 @@ Las 21 tienen foto: 16 salen de video/foto ya filmados en el local (`videos/` y 
 | Manicuría | Soft gel | `soft-gel.jpg` | listo, confirmar técnica |
 | Manicuría | Retiro | `retiro.jpg` | listo, confirmar técnica |
 | Manicuría | Belleza de manos | `belleza-de-manos.jpg` | listo, confirmar técnica |
-| Manicuría | Belleza de pies | `belleza-de-pies.jpg` | listo |
+| Manicuría | Belleza de pies | `belleza-de-pies.jpg` | **stock** |
 | Faciales | Peeling químico | `peeling-quimico.jpg` | **stock** |
 | Faciales | Dermaplaning | `dermaplaning.jpg` | **stock** |
 | Faciales | Exosomas | `exosomas.jpg` | listo, **confirmar con Gabriela** |
@@ -35,17 +37,37 @@ Las 21 tienen foto: 16 salen de video/foto ya filmados en el local (`videos/` y 
 | Podología | Uñas encarnadas | `unas-encarnadas.jpg` | listo |
 | Corporales | Hifu corporal | `hifu-corporal.jpg` | listo |
 
-## Las 5 de stock (Unsplash)
+## Las 3 de Unsplash
 
 Licencia de Unsplash: uso comercial libre, sin atribución obligatoria. Se completaron con stock porque no hay material propio: los clips faciales de `videos/estetica-facial/` no muestran ni el bisturí ni un peeling que se entienda como tal, y de pestañas y kapping no hay nada filmado. Reemplazar por fotos propias cuando se filmen (una foto de banco al lado de fotos reales del local se nota); el archivo nuevo pisa al de stock con el mismo nombre.
 
 | Archivo | Foto de Unsplash (id) | Qué se ve |
 |---|---|---|
 | `peeling-quimico.jpg` | `Pe9IXUuC6QU` | esteticista aplicando el producto con pincel sobre el rostro |
-| `dermaplaning.jpg` | `PqyzuzFiQfY` | esteticista con bisturí sobre la mejilla |
-| `lifting-de-pestanas.jpg` | `GEct9d7zgos` | ojo con pestañas largas y curvas |
 | `pelo-por-pelo.jpg` | `sRSRuxkOuzI` | pinzas colocando una extensión sobre una pestaña |
 | `kapping.jpg` | `vtQHwU4F13s` | mano con uñas naturales de tono nude |
+
+## La de Pexels
+
+Licencia de Pexels: uso comercial libre, sin atribución obligatoria.
+
+| Archivo | Foto de Pexels | Qué se ve |
+|---|---|---|
+| `belleza-de-pies.jpg` | `17056220` | manos con guantes pintando de rosa la uña del dedo gordo del pie (recorte 4:3 de una vertical) |
+
+Elegida por Matías el 2026-09-30. La anterior era material propio pero mostraba a Moni, y belleza de pies la hace Fati; además se pidió que se vea el esmaltado. No hay material propio de Fati haciendo pies. Ojo: los guantes están pasados a gris en la foto original (efecto de color selectivo).
+
+## La de dermaplaning
+
+`dermaplaning.jpg` es un recorte 4:3 de `img/dermaplaning.jpeg`, la foto que eligió Matías (2026-10-01): manos con guantes negros pasando el bisturí por el mentón, de perfil, con los labios y la nariz en cuadro. Reemplaza a la de Unsplash `PqyzuzFiQfY`. No tiene registrado de dónde salió. 720 x 540, no se agrandó.
+
+## La de lifting
+
+`lifting-de-pestanas.jpg` es un recorte 4:3 de `img/linfting.jpg`, la foto que eligió Matías (2026-10-01): pestañas propias peinadas hacia arriba sobre el molde de silicona, con pincel aplicando el producto. Reemplaza a dos anteriores que mostraban extensiones/postizas (`GEct9d7zgos` y `kA74I2XMiSQ` de Unsplash). No tiene registrado de qué banco salió. Es chica (497 x 373, no se agrandó).
+
+## La de cera
+
+`cera.jpg` es un recorte 4:3 de `img/depicera.jpg`, la foto que eligió Matías (2026-09-30): esteticista con guantes aplicando cera dorada con espátula sobre la pierna, en camilla. No viene de material propio y no tiene registrado de qué banco salió. Es chica (484 x 363, no se agrandó para no pixelarla); si aparece una versión más grande, reemplazarla.
 
 Cada una se ve en `https://unsplash.com/photos/<id>`. Ojo: en las de stock aparecen personas que no son de KALON.
 
