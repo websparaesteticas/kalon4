@@ -16,7 +16,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
 body{font-family:var(--ss);font-weight:300;color:var(--ink);background:var(--paper);line-height:1.7;-webkit-font-smoothing:antialiased;}
-img{max-width:100%;display:block;}
+img{max-width:100%;height:auto;display:block;}
 a{text-decoration:none;color:inherit;}
 .wrap{max-width:920px;margin:0 auto;padding:0 1.6rem;}
 
@@ -114,6 +114,21 @@ section{padding:4.5rem 1.6rem;}
 .treat-grid.is-single{grid-template-columns:1fr;}
 .treat-grid.is-single .treat-card{flex-direction:row;}
 .treat-grid.is-single .treat-img{flex:0 0 42%;aspect-ratio:auto;min-height:220px;}
+/* hover de tarjetas: sube, sombra oliva, zoom lento de la foto. Solo con mouse (en táctil quedaría "pegado") */
+.treat-card{transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease;}
+.treat-img img{transition:transform .8s cubic-bezier(.2,.7,.2,1);}
+.treat-cta{transition:color .25s,border-color .25s;}
+@media (hover:hover) and (pointer:fine){
+  .treat-card:hover{transform:translateY(-4px);border-color:var(--accent-soft);box-shadow:0 14px 30px -14px rgba(51,58,38,.35);}
+  .treat-card:hover .treat-img img{transform:scale(1.06);}
+  .treat-card:hover .treat-cta{color:var(--ink);border-color:var(--accent);}
+}
+.treat-card:focus-within{border-color:var(--accent-soft);box-shadow:0 14px 30px -14px rgba(51,58,38,.35);}
+@media (prefers-reduced-motion:reduce){
+  .treat-card,.treat-img img{transition:none;}
+  .treat-card:hover{transform:none;}
+  .treat-card:hover .treat-img img{transform:none;}
+}
 .back-up{display:inline-block;margin-top:1.8rem;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);}
 .back-up:hover{color:var(--accent);}
 

@@ -9,7 +9,7 @@ Cada archivo aparece solo en su tarjeta de `servicios.html`. Si el archivo no ex
 
 ## Estado (2026-09-18)
 
-Las 21 tienen foto: 14 salen de video/foto ya filmados en el local (`videos/` y planos ya cortados de uñas) y 7 son de stock (3 de Unsplash, 1 de Pexels, y las de cera, lifting y dermaplaning que eligió Matías, ver abajo).
+Tienen foto 20 de 21 (falta soft gel): 13 salen de video/foto ya filmados en el local (`videos/` y planos ya cortados de uñas) y 7 son de stock (2 de Unsplash, 1 de Pexels, y las de cera, lifting, dermaplaning, exosomas y belleza de manos que eligió Matías, ver abajo).
 
 **2026-09-30:** la foto de cera que había (sacada del material propio) mostraba gel, no cera; se reemplazó por `depicera.jpg` (elegida por Matías) y el tratamiento pasó a llamarse "Depilación con cera" (antes "Cera de miel").
 
@@ -19,14 +19,14 @@ Las 21 tienen foto: 14 salen de video/foto ya filmados en el local (`videos/` y 
 | Depilación | Depilación definitiva | `depilacion-definitiva.jpg` | listo |
 | Manicuría | Manicuría básica | `manicuria-basica.jpg` | listo, confirmar técnica |
 | Manicuría | Semipermanente | `semipermanente.jpg` | listo, confirmar técnica |
-| Manicuría | Kapping | `kapping.jpg` | **stock** |
-| Manicuría | Soft gel | `soft-gel.jpg` | listo, confirmar técnica |
+| Manicuría | Kapping | `kapping.jpg` | listo (era la foto de soft gel, corregido por Matías 2026-10-01) |
+| Manicuría | Soft gel | `soft-gel.jpg` | **falta** — Matías busca una (2026-10-01); mientras, la tarjeta va sin foto |
 | Manicuría | Retiro | `retiro.jpg` | listo, confirmar técnica |
-| Manicuría | Belleza de manos | `belleza-de-manos.jpg` | listo, confirmar técnica |
+| Manicuría | Belleza de manos | `belleza-de-manos.jpg` | **stock** |
 | Manicuría | Belleza de pies | `belleza-de-pies.jpg` | **stock** |
 | Faciales | Peeling químico | `peeling-quimico.jpg` | **stock** |
 | Faciales | Dermaplaning | `dermaplaning.jpg` | **stock** |
-| Faciales | Exosomas | `exosomas.jpg` | listo, **confirmar con Gabriela** |
+| Faciales | Exosomas | `exosomas.jpg` | **stock** |
 | Pestañas | Lifting de pestañas | `lifting-de-pestanas.jpg` | **stock** |
 | Pestañas | Pelo por pelo | `pelo-por-pelo.jpg` | **stock** |
 | Masajes | Descontracturante | `masaje-descontracturante.jpg` | listo, es `../masajes.jpg` |
@@ -37,15 +37,14 @@ Las 21 tienen foto: 14 salen de video/foto ya filmados en el local (`videos/` y 
 | Podología | Uñas encarnadas | `unas-encarnadas.jpg` | listo |
 | Corporales | Hifu corporal | `hifu-corporal.jpg` | listo |
 
-## Las 3 de Unsplash
+## Las 2 de Unsplash
 
-Licencia de Unsplash: uso comercial libre, sin atribución obligatoria. Se completaron con stock porque no hay material propio: los clips faciales de `videos/estetica-facial/` no muestran ni el bisturí ni un peeling que se entienda como tal, y de pestañas y kapping no hay nada filmado. Reemplazar por fotos propias cuando se filmen (una foto de banco al lado de fotos reales del local se nota); el archivo nuevo pisa al de stock con el mismo nombre.
+Licencia de Unsplash: uso comercial libre, sin atribución obligatoria. Se completaron con stock porque no hay material propio: los clips faciales de `videos/estetica-facial/` no muestran ni el bisturí ni un peeling que se entienda como tal, y de pelo por pelo no hay nada filmado. Reemplazar por fotos propias cuando se filmen (una foto de banco al lado de fotos reales del local se nota); el archivo nuevo pisa al de stock con el mismo nombre.
 
 | Archivo | Foto de Unsplash (id) | Qué se ve |
 |---|---|---|
 | `peeling-quimico.jpg` | `Pe9IXUuC6QU` | esteticista aplicando el producto con pincel sobre el rostro |
 | `pelo-por-pelo.jpg` | `sRSRuxkOuzI` | pinzas colocando una extensión sobre una pestaña |
-| `kapping.jpg` | `vtQHwU4F13s` | mano con uñas naturales de tono nude |
 
 ## La de Pexels
 
@@ -56,6 +55,14 @@ Licencia de Pexels: uso comercial libre, sin atribución obligatoria.
 | `belleza-de-pies.jpg` | `17056220` | manos con guantes pintando de rosa la uña del dedo gordo del pie (recorte 4:3 de una vertical) |
 
 Elegida por Matías el 2026-09-30. La anterior era material propio pero mostraba a Moni, y belleza de pies la hace Fati; además se pidió que se vea el esmaltado. No hay material propio de Fati haciendo pies. Ojo: los guantes están pasados a gris en la foto original (efecto de color selectivo).
+
+## La de belleza de manos
+
+`belleza-de-manos.jpg` es un recorte 4:3 de `img/belleza-de-unias.jpg`, la foto que eligió Matías (2026-10-01): manicura con guantes negros pintando con pincel fino una uña nude. Reemplaza al cuadro de video propio, que era la misma escena (mano con anillo y uñas nude) que quedó en `kapping.jpg`. No tiene registrado de dónde salió.
+
+## La de exosomas
+
+`exosomas.jpg` es un recorte 4:3 de `img/exosomas.jpg`, la foto que eligió Matías (2026-10-01): cabezal de dermapen con guante negro sobre la sien, al lado del ojo cerrado. Reemplaza a la varita dorada que salía de la sesión facial filmada. No tiene registrado de dónde salió.
 
 ## La de dermaplaning
 
@@ -73,5 +80,5 @@ Cada una se ve en `https://unsplash.com/photos/<id>`. Ojo: en las de stock apare
 
 ## A confirmar con quien hace cada tratamiento
 
-- **`exosomas.jpg`:** sale de la sesión facial filmada y muestra un equipo de varita dorada sobre el rostro. Es lo más razonable que se puede asignar, pero no hay un dato de rodaje que diga qué técnica es. Si no coincide, borrar el archivo y la tarjeta queda sin foto. (Las almohadillas sobre las mejillas de esa misma sesión se sacaron de peeling porque no se entendía.)
+- ~~**`exosomas.jpg`:**~~ resuelto (2026-10-01): se reemplazó la varita dorada de la sesión facial por la foto que eligió Matías (ver "La de exosomas").
 - **Las de uñas** salen de planos de manicuría ya cortados y la asignación a cada técnica es por lo que se ve. El reel de servicios (`v2-unias-servicios.ts`) es un montaje continuo, no confirma qué plano es cada técnica.
